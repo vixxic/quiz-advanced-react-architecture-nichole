@@ -29,7 +29,6 @@ function reducer(state, action) {
       };
 
     case "LOGOUT":
-    case "LOGOUT":
       localStorage.removeItem("cart");
       localStorage.removeItem("user");
 
