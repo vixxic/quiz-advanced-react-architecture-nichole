@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(245, 242, 238);
+}
+
+.pages-content {
+  margin: 3vw 15vw;
+}
+
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  margin-top: 3vw;
+}

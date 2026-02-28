@@ -1,0 +1,57 @@
+.nav-outer {
+  background-color: black;
+  padding: 0.5em 32px;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  margin: 0%;
+  color: white;
+}
+
+.links-btn-div {
+  display: flex;
+  gap: 2.5em;
+  justify-content: center;
+  align-items: center;
+}
+
+.users-email {
+  color: rgb(92, 92, 92);
+  font-size: 0.8em;
+}
+
+.pages-link {
+  color: #d2d2d2;
+  text-decoration: none;
+}
+
+.pages-link.active {
+  color: #d4521a;
+  font-weight: bold;
+}
+
+.total-items {
+  color: #d2d2d2;
+  background-color: #d4521a;
+  padding: 0.2em 0.5em;
+  border-radius: 50px;
+  font-size: 0.6em;
+}
+
+.logout-btn {
+  background-color: black;
+  border: gray 0.2px solid;
+  color: gray;
+  border-radius: 3px;
+  padding: 0.5em 1em;
+}

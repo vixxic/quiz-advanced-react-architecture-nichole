@@ -1,0 +1,43 @@
+.order-sum {
+  background-color: #0a0a0f;
+  flex: 1;
+  height: max-content;
+  padding: 1em;
+}
+
+.title {
+  color: white;
+  margin: 0.3em 0 0.7em 0;
+  font-size: 1.5em;
+}
+
+.total {
+  color: #d4521a;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5em;
+  height: 40px;
+  align-items: center;
+}
+
+.place-order {
+  background-color: #d4521a;
+  border: 2px solid #d4521a;
+  color: white;
+  width: 100%;
+  padding: 1em;
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.shipping {
+  color: gray;
+  margin: 1em 0;
+}
+
+.item-total {
+  color: rgb(206, 206, 206);
+  margin-top: 1em;
+}
